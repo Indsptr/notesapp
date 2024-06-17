@@ -1,0 +1,31 @@
+###Create Notes
+POST http://localhost:3000/notes/create
+Content-Type: application/json
+
+{
+    "title": "Fuzaken",
+    "datetime": "2024-06-08 12:00:00",
+    "note": "Fuzaaa"
+}
+
+###Show Notes
+GET http://localhost:3000/notes
+Content-Type: application/json
+
+###Update Notes
+PUT http://localhost:3000/notes/1
+Content-Type: application/json
+
+{
+    "title": "Reiya",
+    "datetime": "2024-06-07 11:59:00",
+    "note": "Reiya Deck"
+}
+
+###Show Notes by ID
+GET http://localhost:3000/notes/1
+Content-Type: application/json
+
+###Delete Notes
+DELETE http://localhost:3000/notes/2
+Content-Type: application/json
